@@ -43,7 +43,7 @@ export default function Communities() {
   return (
     <div className="flex-col">
       <Hero text={header} />
-      <div className="flex-col text-center px-24">
+      <div className="flex-col text-center px-8">
         {qas.map((qa, idx) => {
           return (
             <div key={idx} className="">

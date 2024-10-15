@@ -12,6 +12,12 @@ const config: Config = {
     screens: {
       md: "768px",
     },
+    extend: {
+      flex: {
+        "2": "2 2 0%",
+      },
+      fontSize: {},
+    },
   },
   darkMode: "class",
   plugins: [

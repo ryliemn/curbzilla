@@ -41,7 +41,7 @@ export default function Communities() {
         COMMUNITIES WE HAVE CURBED
       </h1>
       <div className="flex-row justify-center items-center text-xl my-8">
-        <ul className="grid grid-rows-6 grid-flow-col text-center gap-4">
+        <ul className="grid grid-cols-2 md:grid-cols-4 grid-flow-rows text-center gap-4">
           {cities.map((c) => (
             <li key={c}>{c}</li>
           ))}
@@ -55,15 +55,15 @@ export default function Communities() {
         Don&apos;t just take it from us...
       </h2>
       <div className="flex flex-col my-4">
-        <div className="flex-row flex p-4">
-          <div className="flex-1 relative">
+        <div className="flex-col md:flex-row flex md:p-2 gap-y-4">
+          <div className="md:flex-1 relative min-h-[300px]">
             <Image
               src="53d05202-23ba-4496-31ff-743101ffd200"
               fill
               alt="Hero image"
             />
           </div>
-          <div className="flex-1 px-8 text-xl">
+          <div className="md:flex-2 px-8 text-xl">
             <span className="underline font-bold text-center">Wow!</span>
             <div className="my-4 space-y-4">
               <div>
@@ -104,8 +104,8 @@ export default function Communities() {
             </div>
           </div>
         </div>
-        <div className="flex-row flex p-4">
-          <div className="flex-1 px-8 text-xl">
+        <div className="flex-col-reverse md:flex-row flex md:p-2 gap-y-4 my-4">
+          <div className="md:flex-2 px-8 text-xl">
             <div className="my-4 space-y-4">
               <div>
                 What a beautiful and functional improvement this curbing made to
@@ -122,7 +122,7 @@ export default function Communities() {
               Bob and Ardell, Graham WA
             </div>
           </div>
-          <div className="flex-1 relative">
+          <div className="md:flex-1 relative min-h-[300px]">
             <Image
               src="24cc6470-6aa6-4858-154d-41a4f64b4600"
               alt="Hero image"
