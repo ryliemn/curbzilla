@@ -10,10 +10,10 @@ export default function Home() {
     <div>
       <Hero text={header} subtext={subtext} />
       <div className="flex flex-col my-8 items-center space-y-4">
-        <h1 className="text-6xl font-bold text-zinc-900">
+        <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
           CONCRETE LANDSCAPE CURBING
         </h1>
-        <div className="text-2xl text-zinc-900">
+        <div className="text-2xl text-zinc-900 text-center">
           ...serving Pierce County, South King County, and North Thurston County
         </div>
       </div>

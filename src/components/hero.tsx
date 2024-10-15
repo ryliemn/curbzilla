@@ -17,8 +17,12 @@ export default function Hero({ text, subtext }: IProps) {
         />
       </div>
       <div className="absolute backdrop-brightness-50 p-2 space-y-4">
-        <h1 className="font-semibold text-zinc-100 text-5xl">{text}</h1>
-        <h2 className="font-light text-zinc-100 text-3xl">{subtext}</h2>
+        <h1 className="font-semibold text-zinc-100 text-3xl md:text-5xl">
+          {text}
+        </h1>
+        <h2 className="font-light text-zinc-100 text-xl md:text-3xl">
+          {subtext}
+        </h2>
       </div>
     </div>
   );
