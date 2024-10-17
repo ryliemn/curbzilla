@@ -71,7 +71,7 @@ export default function Customize() {
       <h1 className="text-center my-8 text-3xl font-bold px-6 uppercase">
         We offer 3 distinct styles of curbing: Mower, Slant, and Curb
       </h1>
-      <div className="w-full h-[160px] relative bg-slate-300 from-gray-50 to-gray-50 via-slate-400 bg-gradient-to-b">
+      <div className="w-full h-[160px] relative from-gray-50 to-gray-50 via-slate-400 bg-gradient-to-b">
         <Image
           src="bbf53ba3-a201-4999-a821-be3175a28300"
           alt="Logo image"
@@ -89,7 +89,7 @@ export default function Customize() {
             return (
               <div
                 key={c.hexCode}
-                className="w-[120px] h-[100px] md:w-[150px] md:h-[150px] p-2 text-lg"
+                className="w-[100px] h-[90px] md:w-[150px] md:h-[150px] p-2 text-lg"
                 style={{ backgroundColor: `#${c.hexCode}` }}
               >
                 {c.name}
@@ -114,14 +114,14 @@ export default function Customize() {
           <Image
             src="4c1a471b-c5f3-4a3c-2a3d-745b01f00800"
             alt="stamped curb"
-            width={200}
+            width={185}
             height={500}
             className="rounded-lg"
           />
           <Image
             src="f777991b-c643-4cae-b87b-84455e7d6c00"
             alt="stamped curb"
-            width={200}
+            width={180}
             height={500}
             className="rounded-lg"
           />

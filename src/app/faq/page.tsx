@@ -80,7 +80,7 @@ export default function Communities() {
           <div className="text-lg text-zinc-700 my-2">
             Unless instructed otherwise, follow these rules
           </div>
-          <div className="flex text-left mx-28">
+          <div className="flex text-left md:mx-28">
             <ol className="list-decimal">
               {rules.map((rule, idx) => {
                 return (
