@@ -1,8 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
-import { Divider } from "@nextui-org/react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function About() {
   return (
@@ -24,9 +22,9 @@ export default function About() {
             className="rounded-lg"
           />
           <div className="text-2xl self-center px-4 py-4 md:px-8 leading-9">
-            At Curbzilla, we've perfected the art of landscape curbing since
-            1993. With over 65 years of combined experience, our locally owned
-            and operated company takes pride in transforming yards across
+            At Curbzilla, we&apos;ve perfected the art of landscape curbing
+            since 1993. With over 65 years of combined experience, our locally
+            owned and operated company takes pride in transforming yards across
             Tacoma, Federal Way, Lakewood, and beyond. The{" "}
             <strong>owner</strong> has been on every job site since the
             beginning to ensure the highest quality.
@@ -36,10 +34,10 @@ export default function About() {
           <div className="text-2xl self-center md:px-8 px-4 py-4 leading-9">
             The <strong>finisher</strong> has been with the company for 22
             years, and is probably the most important person on the job site. He
-            considers it an art! He's the one on his knees making love to the
-            curbing. I like to say if there were an Olympics for curbing, I'm
-            not guaranteeing he would get the gold, but I'm pretty darn sure he
-            would make the podium, and I will take top 3 any time!
+            considers it an art! He&apos;s the one on his knees making love to
+            the curbing. I like to say if there were an Olympics for curbing,
+            I&apos;m not guaranteeing he would get the gold, but I&apos;m pretty
+            darn sure he would make the podium, and I will take top 3 any time!
           </div>
           <Image
             src="e5fa2cbd-8944-4a88-c324-5f4a0bbdc700"
@@ -71,9 +69,9 @@ export default function About() {
       </div>
 
       <div className="my-8 text-3xl p-8 text-center leading-9">
-        Don't let your yard get the best of you. We offer free design meetings,
-        and can help you come up with the perfect concrete curbing to complement
-        your home and garden. Get in touch today!
+        Don&apos;t let your yard get the best of you. We offer free design
+        meetings, and can help you come up with the perfect concrete curbing to
+        complement your home and garden. Get in touch today!
       </div>
 
       <ContactUs />
