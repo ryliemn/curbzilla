@@ -66,6 +66,22 @@ export default function ContactUs() {
                 errors={state.errors}
               />
             </div>
+            <div>
+              <label htmlFor="name" className="text-xl font-bold">
+                * Your name
+              </label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                className="mx-4 text-slate-800 p-1"
+              />
+              <ValidationError
+                prefix="Name"
+                field="name"
+                errors={state.errors}
+              />
+            </div>
 
             <Button type="submit" color="primary" disabled={state.submitting}>
               Submit
