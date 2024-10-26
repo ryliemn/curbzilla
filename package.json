@@ -13,10 +13,10 @@
     "@formspree/react": "^2.5.1",
     "@nextui-org/react": "^2.4.6",
     "framer-motion": "^11.3.31",
+    "lucide-react": "^0.453.0",
     "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18",
-    "react-photo-album": "^3.0.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
