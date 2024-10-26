@@ -33,14 +33,14 @@ export default function Gallery() {
                   src={pair.before}
                   alt="an image of curbing"
                   width={900}
-                  height={500}
+                  height={506}
                   className="rounded-lg"
                 />
                 <Image
                   src={pair.after}
                   alt="an image of curbing"
                   width={900}
-                  height={500}
+                  height={506}
                   className="rounded-lg"
                 />
               </div>
