@@ -2,20 +2,10 @@
 import ContactUs from "@/components/contact-us";
 import { BEFORE_AND_AFTERS } from "@/utils/images";
 import { Divider } from "@nextui-org/react";
-import "keen-slider/keen-slider.min.css";
-import {
-  KeenSliderInstance,
-  KeenSliderPlugin,
-  useKeenSlider,
-} from "keen-slider/react";
-import {
-  ArrowLeft,
-  CircleArrowLeft,
-  CircleArrowRight,
-  Dot,
-} from "lucide-react";
+
+import { CircleArrowLeft, CircleArrowRight, Dot } from "lucide-react";
 import Image from "next/image";
-import { MutableRefObject, useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Gallery() {
   const [curIdx, setCurIdx] = useState(0);
