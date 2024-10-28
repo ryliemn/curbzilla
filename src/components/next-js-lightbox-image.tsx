@@ -16,9 +16,6 @@ function isNextJsImage(slide: any) {
 }
 
 export default function NextJsLightboxImage({ slide, offset, rect }: any) {
-  if (!slide) return null;
-  if (!slide.height || !slide.width) return null;
-
   const {
     on: { click },
     carousel: { imageFit },
