@@ -1,5 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
+import { HEROES, OVERHEAD } from "@/utils/images";
 import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 
@@ -35,7 +36,7 @@ export default function Communities() {
 
   return (
     <div className="flex-col">
-      <Hero text="WHERE WE CURB" />
+      <Hero text="WHERE WE CURB" imgSrc={HEROES[3].src} alt={HEROES[3].alt} />
 
       <h1 className="text-5xl font-bold text-zinc-900 text-center my-8">
         COMMUNITIES WE HAVE CURBED
@@ -110,12 +111,11 @@ export default function Communities() {
               <div>
                 What a beautiful and functional improvement this curbing made to
                 our yard! We waiting 5 years to do this and now wonder why we
-                waited so long. Rolland, Chuck and Bill are the best of people,
-                who care about doing good work and work hard at doing it. We
-                enjoyed the short time they were working at our home and
-                continue to enjoy the work they did here every day. We would
-                certainly use CurbZilla again or recommend them to others.
-                Thanks guys!
+                waited so long. [The Curbzilla team] are the best of people, who
+                care about doing good work and work hard at doing it. We enjoyed
+                the short time they were working at our home and continue to
+                enjoy the work they did here every day. We would certainly use
+                CurbZilla again or recommend them to others. Thanks guys!
               </div>
             </div>
             <div className="font-bold text-right">
@@ -129,6 +129,18 @@ export default function Communities() {
               fill
             />
           </div>
+        </div>
+      </div>
+      <div className="mb-4">
+        <Image
+          src={OVERHEAD.src}
+          alt={OVERHEAD.alt}
+          width={400}
+          height={300}
+          className="ml-auto mr-auto"
+        />
+        <div className="ml-auto mr-auto text-center text-xl italic">
+          A satellite shot of one of our most detailed jobs!
         </div>
       </div>
 

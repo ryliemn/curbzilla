@@ -1,11 +1,12 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
+import { HEROES } from "@/utils/images";
 import Image from "next/image";
 
 export default function About() {
   return (
     <div className="flex-col">
-      <Hero text="WHO WE ARE" />
+      <Hero text="WHO WE ARE" imgSrc={HEROES[4].src} alt={HEROES[4].alt} />
       <div className="flex flex-col items-center text-2xl font-thin my-4">
         <span>Landscape curbing is an art,</span>
         <span>all about level and flow.</span>

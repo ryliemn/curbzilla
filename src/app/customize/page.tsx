@@ -1,5 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
+import { HEROES } from "@/utils/images";
 import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 
@@ -67,7 +68,12 @@ const colors = [
 export default function Customize() {
   return (
     <div className="flex-col">
-      <Hero text="CUSTOMIZE" subtext="WITH STYLES, STAMPS, AND COLORS" />
+      <Hero
+        text="CUSTOMIZE"
+        subtext="WITH STYLES, STAMPS, AND COLORS"
+        imgSrc={HEROES[2].src}
+        alt={HEROES[2].alt}
+      />
       <h1 className="text-center my-8 text-3xl font-bold px-6 uppercase">
         We offer 3 distinct styles of curbing: Mower, Slant, and Curb
       </h1>

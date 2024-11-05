@@ -1,6 +1,7 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
 import ImgWithText from "@/components/img-with-text";
+import { HEROES } from "@/utils/images";
 import { Code, Divider, Image } from "@nextui-org/react";
 import NextImage from "next/image";
 
@@ -42,7 +43,7 @@ export default function Communities() {
 
   return (
     <div className="flex-col">
-      <Hero text={header} />
+      <Hero text={header} imgSrc={HEROES[0].src} alt={HEROES[0].alt} />
       <div className="flex-col text-center px-8">
         {qas.map((qa, idx) => {
           return (

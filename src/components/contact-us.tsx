@@ -2,12 +2,42 @@
 
 import { useForm, ValidationError } from "@formspree/react";
 import { Button } from "@nextui-org/react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function ContactUs() {
   const [state, handleSubmit] = useForm("manyndnw");
 
   return (
-    <div className="w-full items-center bg-slate-800 text-slate-50 py-12 flex flex-col">
+    <div className="w-full items-center bg-slate-800 text-slate-50 py-6 flex flex-col">
+      <div className="flex mb-4 space-x-12">
+        <Link
+          href="https://www.facebook.com/profile.php?id=100030412437273"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/images/Facebook_Logo_Primary.png"
+            width="60"
+            height="60"
+            alt="Facebook logo; links out to curbzilla facebook page"
+            unoptimized
+          />
+        </Link>
+        <Link
+          href="https://maps.app.goo.gl/QaabSjcXW15AET9WA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/images/maps.png"
+            width="60"
+            height="60"
+            alt="Google maps logo; links out to curbzilla google maps page"
+            unoptimized
+          />
+        </Link>
+      </div>
       {state.succeeded ? (
         <p className="text-3xl">
           Thanks for reaching out! We will be in contact soon to discuss your

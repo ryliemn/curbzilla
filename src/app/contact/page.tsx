@@ -1,5 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
+import { HEROES } from "@/utils/images";
 import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +8,7 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div className="flex-col">
-      <Hero text="CONTACT US" />
+      <Hero text="CONTACT US" imgSrc={HEROES[5].src} alt={HEROES[5].alt} />
       <div className="my-8 space-y-8 px-4">
         <div className="justify-center items-center space-x-4 flex md:flex-row flex-col">
           <span className="font-thin text-2xl">CALL OR TEXT</span>

@@ -26,6 +26,45 @@ export const BEFORE_AND_AFTERS = [
   },
 ];
 
+export const HEROES = [
+  {
+    src: "d9dcb83f-7a96-4534-ccd4-4691191d0200",
+    name: "banner2",
+    alt: "Curbing with a red brick pattern",
+  },
+  {
+    src: "a1ebae64-2fc4-4a7b-5471-18f8786f6900",
+    name: "banner1",
+    alt: "Curbing surrounding some landscaped shrubs in front of a house",
+  },
+  {
+    src: "cc282e68-e7bd-4438-e178-f05b1758f300",
+    name: "banner3",
+    alt: "Fresh curbing on the edge of a playground",
+  },
+  {
+    src: "0dfbd671-1e6d-4689-69c7-9d54ac8b4e00",
+    name: "banner4",
+    alt: "Curbing with a drainage gap",
+  },
+  {
+    src: "ca944f3c-c464-4460-8fd6-505338b8ba00",
+    name: "banner5",
+    alt: "The curbzilla truck in the snow",
+  },
+  {
+    src: "0c1e3822-9806-4864-6780-60e5f5559c00",
+    name: "banner6",
+    alt: "Fresh curbing surrounding some decorative rocks and trees",
+  },
+];
+
+export const OVERHEAD = {
+  src: "f7cb7e95-3b21-4f5c-943e-2d7125e24700",
+  name: "overhead",
+  alt: "Overhead shot of a curb job from google maps",
+};
+
 export const GENERIC_GALLERY = [
   {
     src: "b9f7988e-77fc-4142-f79a-4465daa61f00",

@@ -1,6 +1,7 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
 import ImgWithText from "@/components/img-with-text";
+import { HEROES } from "@/utils/images";
 
 export default function Home() {
   const header = "CURBING SOUTH PUGET SOUND";
@@ -8,7 +9,12 @@ export default function Home() {
 
   return (
     <div>
-      <Hero text={header} subtext={subtext} />
+      <Hero
+        text={header}
+        subtext={subtext}
+        imgSrc={HEROES[1].src}
+        alt={HEROES[1].alt}
+      />
       <div className="flex flex-col my-8 items-center space-y-4">
         <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
           CONCRETE LANDSCAPE CURBING
