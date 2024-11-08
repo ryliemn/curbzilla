@@ -5,14 +5,15 @@ interface IProps {
   imageUrl: string;
   header?: string;
   body: string;
+  alt?: string;
 }
 
-export default function ImgWithText({ imageUrl, header, body }: IProps) {
+export default function ImgWithText({ imageUrl, header, body, alt }: IProps) {
   return (
     <div className="w-[400px] flex-col text-center">
       <Image
         src={imageUrl}
-        alt="Image"
+        alt={alt ?? "Image"}
         width={400}
         height={400}
         className="rounded-lg"

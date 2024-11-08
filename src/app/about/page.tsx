@@ -1,6 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
-import { HEROES } from "@/utils/images";
+import { GENERIC_GALLERY, HEROES } from "@/utils/images";
 import Image from "next/image";
 
 export default function About() {
@@ -16,8 +16,8 @@ export default function About() {
       <div className="space-y-4">
         <div className="flex md:flex-row flex-col md:mx-2">
           <Image
-            src="0500d0da-b144-4b09-aedf-760810149d00"
-            alt="an image of curbing"
+            src={GENERIC_GALLERY[17].src}
+            alt={GENERIC_GALLERY[17].alt}
             width={400}
             height={300}
             className="rounded-lg"
@@ -41,8 +41,8 @@ export default function About() {
             darn sure he would make the podium, and I will take top 3 any time!
           </div>
           <Image
-            src="e5fa2cbd-8944-4a88-c324-5f4a0bbdc700"
-            alt="an image of curbing"
+            src={GENERIC_GALLERY[15].src}
+            alt={GENERIC_GALLERY[15].alt}
             width={400}
             height={300}
             className="rounded-lg"

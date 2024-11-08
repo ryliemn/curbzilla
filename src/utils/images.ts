@@ -157,4 +157,39 @@ export const GENERIC_GALLERY = [
     height: 1600,
     alt: "Curbing with a black cobblestone pattern",
   },
+  {
+    src: "1ab92600-38e6-4eb9-7b80-82d8ce0c4100",
+    name: "redbrickandflowers",
+    width: 900,
+    height: 900,
+    alt: "Red brick curbing in front of some flowers",
+  },
+  {
+    src: "4f4c9b9a-fc51-454f-6e0b-20e4b9498d00", //14
+    name: "wagonwheel",
+    width: 900,
+    height: 900,
+    alt: "Curbing in front of a house and some wheels",
+  },
+  {
+    src: "44a7a372-378f-45dd-12b8-987c7764e500",
+    name: "spookytree",
+    width: 900,
+    height: 900,
+    alt: "Curbing in a yard with a spooky tree",
+  },
+  {
+    src: "4afb6d5c-b79f-467d-6a13-b8a30ab84200",
+    name: "angle",
+    width: 900,
+    height: 1600,
+    alt: "Curbing with a very sharp, technical angle",
+  },
+  {
+    src: "4636ad37-4854-4f9d-ee28-9aae729caa00",
+    name: "trampoline",
+    width: 900,
+    height: 900,
+    alt: "Curbing in front of a trampoline",
+  },
 ];
