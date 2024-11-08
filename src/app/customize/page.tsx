@@ -1,6 +1,6 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
-import { HEROES } from "@/utils/images";
+import { GENERIC_GALLERY, HEROES } from "@/utils/images";
 import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 
@@ -129,6 +129,13 @@ export default function Customize() {
             alt="stamped curb"
             width={180}
             height={500}
+            className="rounded-lg"
+          />
+          <Image
+            src={GENERIC_GALLERY[12].src}
+            alt={GENERIC_GALLERY[12].alt}
+            width={GENERIC_GALLERY[12].width / 3}
+            height={GENERIC_GALLERY[12].height / 3}
             className="rounded-lg"
           />
         </div>

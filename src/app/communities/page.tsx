@@ -61,6 +61,7 @@ export default function Communities() {
             <Image
               src="53d05202-23ba-4496-31ff-743101ffd200"
               fill
+              className="md:rounded-lg"
               alt="Hero image"
             />
           </div>
@@ -127,6 +128,7 @@ export default function Communities() {
               src="24cc6470-6aa6-4858-154d-41a4f64b4600"
               alt="Hero image"
               fill
+              className="md:rounded-lg"
             />
           </div>
         </div>
@@ -137,7 +139,7 @@ export default function Communities() {
           alt={OVERHEAD.alt}
           width={400}
           height={300}
-          className="ml-auto mr-auto"
+          className="ml-auto mr-auto rounded-lg"
         />
         <div className="ml-auto mr-auto text-center text-xl italic">
           A satellite shot of one of our most detailed jobs!

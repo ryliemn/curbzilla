@@ -122,4 +122,39 @@ export const GENERIC_GALLERY = [
     height: 900,
     alt: "Picture of curbing",
   },
+  {
+    src: "353acd69-7667-498e-3894-c52b8fab5400",
+    name: "wetvsdry",
+    width: 900,
+    height: 1600,
+    alt: "Demonstrates the difference between wet and dry curbing",
+  },
+  {
+    src: "1851d1c0-4076-4540-a811-13a31865ed00",
+    name: "flowerpattern1",
+    width: 1600,
+    height: 900,
+    alt: "Curbing in a sort of flower pattern",
+  },
+  {
+    src: "061750dd-36ae-4bf2-6dbb-beed04d81c00",
+    name: "flowerpattern2",
+    width: 1600,
+    height: 900,
+    alt: "More curbing in a sort of flower pattern",
+  },
+  {
+    src: "b23cb45a-fb0b-4c30-6ea2-23ca222d1600",
+    name: "stonepath",
+    width: 900,
+    height: 1600,
+    alt: "Curbing surrounded a gravel path",
+  },
+  {
+    src: "88710aae-3b89-4824-baa6-5aff9eb70f00", //12
+    name: "blackcobble",
+    width: 900,
+    height: 1600,
+    alt: "Curbing with a black cobblestone pattern",
+  },
 ];

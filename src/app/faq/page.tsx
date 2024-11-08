@@ -1,9 +1,9 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
 import ImgWithText from "@/components/img-with-text";
-import { HEROES } from "@/utils/images";
-import { Code, Divider, Image } from "@nextui-org/react";
-import NextImage from "next/image";
+import { GENERIC_GALLERY, HEROES } from "@/utils/images";
+import { Code, Divider } from "@nextui-org/react";
+import Image from "next/image";
 
 export default function Communities() {
   const header = "FREQUENTLY ASKED QUESTIONS";
@@ -57,8 +57,8 @@ export default function Communities() {
           );
         })}
         <div className="text-5xl my-8">THE INSTALLATION PROCESS</div>
-        <div className="flex gap-x-24 flex-wrap justify-center gap-y-8">
-          <ImgWithText
+        <div className="flex gap-x-24 flex-wrap justify-center gap-y-8 text-xl">
+          {/* <ImgWithText
             imageUrl="0500d0da-b144-4b09-aedf-760810149d00"
             body="1. A shallow trench is prepared for the curbing"
           />
@@ -73,10 +73,19 @@ export default function Communities() {
           <ImgWithText
             imageUrl="94993eab-247c-4ce8-bb9a-102ff5c93d00"
             body="4. Clean-up, leaving the curbing as the only sign of our work"
-          />
+          /> */}
+          <div>1. A shallow trench is prepared for the curbing</div>
+          <div>
+            2. After mixing to proper consistency, the extrusion machine places
+            concrete in the trench
+          </div>
+          <div>3. Finishes and stress relieving cuts are applied</div>
+          <div>
+            4. Clean-up, leaving the curbing as the only sign of our work
+          </div>
         </div>
         <Divider className="my-8" />
-        <div className="my-4">
+        <div className="my-4 flex flex-col items-center">
           <div className="text-5xl">CURB CARE</div>
           <div className="text-lg text-zinc-700 my-2">
             Unless instructed otherwise, follow these rules
@@ -92,6 +101,16 @@ export default function Communities() {
               })}
             </ol>
           </div>
+          <Image
+            src={GENERIC_GALLERY[8].src}
+            alt={GENERIC_GALLERY[8].alt}
+            className="my-4 rounded-lg"
+            width={400}
+            height={400}
+          />
+          <span className="italic">
+            Wet curbing on the left, compared to fully settled on the right
+          </span>
         </div>
       </div>
       <ContactUs />
