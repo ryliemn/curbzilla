@@ -27,24 +27,24 @@ export default function Home() {
         <ImgWithText
           imageUrl="0500d0da-b144-4b09-aedf-760810149d00"
           header="Our Approach"
-          body="Landscape curbing is an art, all about level and flow. Our experienced team works like a fine-tuned orchestra to create curbing levels above anyone else in the area."
+          body="Landscape curbing is an art, all about level and flow. If you don't have both, you will not please the mind's eye."
         />
         <ImgWithText
           imageUrl="e5fa2cbd-8944-4a88-c324-5f4a0bbdc700"
           header="Our Services"
-          body="We offer continuous, seam-free concrete landscape bordering. Choose from many different looks and styles of concrete curbing to match your home perfectly."
+          body="JUST CURBS! We do the prep work, which is the most important part of the job. Then, we install the curbing. When you do one thing, you better do it really well! We don't do concrete flat work, we don't do landscaping, and we don't do parking lots; JUST CURBS."
         />
         <ImgWithText
           imageUrl={GENERIC_GALLERY[13].src}
           alt={GENERIC_GALLERY[13].alt}
           header="Benefits of Our Curbing"
-          body="Our landscape curbing eliminates the need for edging and trimming. Save time and money while showcasing your beautiful home with our durable, low-maintenance solution."
+          body="Landscape curbing eliminates 80% of your edging chores, saving time and money while showcasing your beautiful home. It's a durable, permanent, continuous, low maintenance solution."
         />
         <ImgWithText
           imageUrl={GENERIC_GALLERY[14].src}
           alt={GENERIC_GALLERY[14].alt}
           header="Our Expertise"
-          body="Curbzilla brings over 65 years of landscape curbing experience. We're locally owned and operated, with the owner present on every job site since 1993."
+          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do."
         />
         <ImgWithText
           imageUrl="e825bab4-46d5-45ed-a361-ae6f0421f700"
