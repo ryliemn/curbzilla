@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
           CONCRETE LANDSCAPE CURBING
         </h1>
-        <div className="text-2xl text-zinc-900 text-center">
+        <div className="text-2xl text-zinc-900 text-center px-4">
           ...serving Pierce County, South King County, and North Thurston County
         </div>
       </div>
