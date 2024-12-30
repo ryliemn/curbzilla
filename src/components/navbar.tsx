@@ -54,10 +54,11 @@ export default function CurbNavbar() {
         <NavbarMenuToggle className="md:hidden" />
         <NavbarBrand>
           <Image
-            src="adc72770-8e9f-4381-6ebe-280e21049500"
+            src="ce6cb5c8-9ebd-426b-c68f-363779dd4600"
             alt="Logo image"
-            width={150}
+            width={300}
             height={150}
+            className="bg-opacity-100"
           />
         </NavbarBrand>
       </NavbarContent>
