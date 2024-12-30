@@ -28,10 +28,6 @@ const menuItems = [
     href: "/faq",
   },
   {
-    name: "Communities",
-    href: "/communities",
-  },
-  {
     name: "Customize",
     href: "/customize",
   },
@@ -42,6 +38,10 @@ const menuItems = [
   {
     name: "About",
     href: "/about",
+  },
+  {
+    name: "Communities",
+    href: "/communities",
   },
 ];
 
@@ -54,11 +54,10 @@ export default function CurbNavbar() {
         <NavbarMenuToggle className="md:hidden" />
         <NavbarBrand>
           <Image
-            src="ce6cb5c8-9ebd-426b-c68f-363779dd4600"
+            src="bf9f1434-df31-4c9c-cbcb-65a51a53b800"
             alt="Logo image"
-            width={300}
-            height={150}
-            className="bg-opacity-100"
+            width={120}
+            height={120}
           />
         </NavbarBrand>
       </NavbarContent>

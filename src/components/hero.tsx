@@ -18,14 +18,14 @@ export default function Hero({ text, subtext, imgSrc, alt, showLogo }: IProps) {
       <div className="absolute backdrop-brightness-50 p-2 space-y-4">
         {showLogo && (
           <Image
-            src="ce6cb5c8-9ebd-426b-c68f-363779dd4600"
+            src="22bf9ebc-87bb-4728-829d-ff7daa95d100"
             alt={alt}
             width={700}
             height={300}
             className="mx-auto brightness-0 invert"
           />
         )}
-        <h1 className="font-semibold text-zinc-100 text-3xl md:text-5xl">
+        <h1 className="font-semibold text-zinc-100 text-3xl md:text-5xl text-center">
           {text}
         </h1>
         <h2 className="font-semibold text-zinc-100 text-2xl md:text-3xl text-center">

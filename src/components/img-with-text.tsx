@@ -6,9 +6,16 @@ interface IProps {
   header?: string;
   body: string;
   alt?: string;
+  body2?: string;
 }
 
-export default function ImgWithText({ imageUrl, header, body, alt }: IProps) {
+export default function ImgWithText({
+  imageUrl,
+  header,
+  body,
+  alt,
+  body2,
+}: IProps) {
   return (
     <div className="w-[400px] flex-col text-center">
       <Image
@@ -19,7 +26,8 @@ export default function ImgWithText({ imageUrl, header, body, alt }: IProps) {
         className="rounded-lg"
       />
       <h3 className="font-bold text-lg mt-2">{header}</h3>
-      <div>{body}</div>
+      <div className="px-2">{body}</div>
+      <div className="px-2">{body2}</div>
     </div>
   );
 }

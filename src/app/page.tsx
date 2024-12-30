@@ -45,7 +45,8 @@ export default function Home() {
           imageUrl={GENERIC_GALLERY[14].src}
           alt={GENERIC_GALLERY[14].alt}
           header="Our Expertise"
-          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do. I've done all the wrong, and I'm not doing that again!"
+          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do."
+          body2="I've done all the wrong, and I'm not doing that again!"
         />
         <ImgWithText
           imageUrl="e825bab4-46d5-45ed-a361-ae6f0421f700"
