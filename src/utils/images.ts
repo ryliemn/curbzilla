@@ -192,4 +192,11 @@ export const GENERIC_GALLERY = [
     height: 900,
     alt: "Curbing in front of a trampoline",
   },
+  {
+    src: "f7cb7e95-3b21-4f5c-943e-2d7125e24700",
+    name: "overhead",
+    alt: "Overhead shot of a curb job from google maps",
+    width: 900,
+    height: 600,
+  },
 ];

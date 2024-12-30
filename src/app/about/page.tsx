@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="flex-col">
       <Hero text="WHO WE ARE" imgSrc={HEROES[4].src} alt={HEROES[4].alt} />
-      <div className="flex flex-col items-center text-2xl font-thin my-4">
+      <div className="flex flex-col items-center text-2xl font-normal my-4">
         <span>Landscape curbing is an art,</span>
         <span>all about level and flow.</span>
         <span>Both must be present</span>
@@ -26,9 +26,8 @@ export default function About() {
             At Curbzilla, we&apos;ve perfected the art of landscape curbing
             since 1993. With over 65 years of combined experience, our locally
             owned and operated company takes pride in transforming yards across
-            Tacoma, Federal Way, Lakewood, and beyond. The{" "}
-            <strong>owner</strong> has been on every job site since the
-            beginning to ensure the highest quality.
+            South Puget Sound and beyond. The <strong>owner</strong> has been on
+            every job site since the beginning to ensure the highest quality.
           </div>
         </div>
         <div className="flex md:flex-row flex-col-reverse md:mx-2">

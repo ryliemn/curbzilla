@@ -10,6 +10,12 @@ export default function Communities() {
   const qas = [
     {
       question:
+        "Why do you say your concrete curbing is continuous when I see cut lines all over the place?",
+      answer:
+        "The lines that you see cut into the curbing are stress relieving cuts to control where the curbing cracks. Without these, Mother Nature would decide where to put the cracks. All concrete requires stress cuts.",
+    },
+    {
+      question:
         "Is your product similar to the concrete edging I see for sale in the local hardware store?",
       answer:
         "No! We are NOT BLOCKS. We are a continuously poured landscape border that is installed wet. This is what makes us the best landscape edging around. We are one continuous piece, like a sidewalk.",
@@ -26,19 +32,13 @@ export default function Communities() {
       answer:
         "We love to be part of the creative design process on all of our installations. We are also highly experienced in helping your landscape border achieve the accent and style you picture in your mind.",
     },
-    {
-      question:
-        "Why do you say your concrete curbing is continuous when I see cut lines all over the place?",
-      answer:
-        "The lines that you see cut into the curbing are stress relieving cuts to control where the curbing cracks. Without these, Mother Nature would decide where to put the cracks. All concrete requires stress cuts.",
-    },
   ];
 
   const rules = [
     "The first 24 hours are the most important time to keep everyone away from the curbing; neighbors, kids, pets, and even you. During this time, curiosity can damage the curb. Make sure sprinklers are off and no water is sprayed directly onto the curbing. Don't even breathe on it!",
     "48 hours in, the curbing is stronger, but can still be damaged. Sprinklers are OK.",
-    "After 5 days, you may now place a lawnmower wheel on the curb for mowing.",
-    "After 2 weeks, you may now run a wheelbarrow over the curbing.",
+    "After 1 week, you may now place a lawnmower wheel on the curb for mowing.",
+    "After 3 weeks, you may now run a wheelbarrow over the curbing.",
   ];
 
   return (

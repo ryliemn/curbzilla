@@ -14,6 +14,7 @@ export default function Home() {
         subtext={subtext}
         imgSrc={HEROES[1].src}
         alt={HEROES[1].alt}
+        showLogo={true}
       />
       <div className="flex flex-col my-8 items-center space-y-4">
         <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
@@ -32,7 +33,7 @@ export default function Home() {
         <ImgWithText
           imageUrl="e5fa2cbd-8944-4a88-c324-5f4a0bbdc700"
           header="Our Services"
-          body="JUST CURBS! We do the prep work, which is the most important part of the job. Then, we install the curbing. When you do one thing, you better do it really well! We don't do concrete flat work, we don't do landscaping, and we don't do parking lots; JUST CURBS."
+          body="JUST CURBS! We do the prep work, which is the most important part of the job. Then, we install the curbing. When you do one thing, you better do it really well! We don't do concrete flat work, we don't do landscaping, and we don't do parking lots; JUST LANDSCAPE CURBING."
         />
         <ImgWithText
           imageUrl={GENERIC_GALLERY[13].src}
@@ -44,12 +45,12 @@ export default function Home() {
           imageUrl={GENERIC_GALLERY[14].src}
           alt={GENERIC_GALLERY[14].alt}
           header="Our Expertise"
-          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do."
+          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do. I've done all the wrong, and I'm not doing that again!"
         />
         <ImgWithText
           imageUrl="e825bab4-46d5-45ed-a361-ae6f0421f700"
           header="Why Choose Us"
-          body="We've served the greater Tacoma, Federal Way, and Lakewood areas for over 20 years. Our commitment is to provide the best product possible and ensure customer satisfaction."
+          body="We have been serving the South Puget Sound from the same location since 1993. No one else in this area even comes close to our expertise or craftsmanship. Like a finely tuned orchestra, each plays his role to create curbing levels above anyone else. There simple is no comparison."
         />
         <ImgWithText
           imageUrl={"fd45e0bd-64ff-44fe-93d8-a2180a0c0200"}
