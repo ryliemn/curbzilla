@@ -51,7 +51,7 @@ export default function Home() {
         <ImgWithText
           imageUrl="e825bab4-46d5-45ed-a361-ae6f0421f700"
           header="Why Choose Us"
-          body="We have been serving the South Puget Sound from the same location since 1993. No one else in this area even comes close to our expertise or craftsmanship. Like a finely tuned orchestra, each plays his role to create curbing levels above anyone else. There simple is no comparison."
+          body="We have been serving the South Puget Sound from the same location since 1993. No one else in this area even comes close to our expertise or craftsmanship. Like a finely tuned orchestra, each plays his role to create curbing levels above anyone else. There simply is no comparison."
         />
         <ImgWithText
           imageUrl={"fd45e0bd-64ff-44fe-93d8-a2180a0c0200"}
