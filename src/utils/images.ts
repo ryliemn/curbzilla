@@ -200,3 +200,35 @@ export const GENERIC_GALLERY = [
     height: 600,
   },
 ];
+
+export const HOMEPAGE_2 = {
+  src: "72e6458f-3fe3-4e8e-3651-35deb1cc2b00",
+  name: "homepage2",
+  alt: "picture of landscape curbing with a wide sweeping arc",
+  height: 1000,
+  width: 1000,
+};
+
+export const HOMEPAGE_4 = {
+  src: "3c66968f-4e27-4d60-52a2-e3e37ceec100",
+  name: "homepage4",
+  alt: "picture of landscape curbing surrounding a manicured lawn",
+  height: 1000,
+  width: 1000,
+};
+
+export const HOMEPAGE_5 = {
+  src: "14674a2a-01ea-48c0-9472-176047d54600",
+  name: "homepage5",
+  alt: "picture of landscape curbing with a very sharp angle, highlighting craftsmanship",
+  height: 1000,
+  width: 1000,
+};
+
+export const HOMEPAGE_6 = {
+  src: "01925a3b-b0c8-426e-a894-60de0fee2e00",
+  name: "homepage6",
+  alt: "picture of a highly specialized curbing with very precise symmetry",
+  height: 1000,
+  width: 1000,
+};

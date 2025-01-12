@@ -75,8 +75,8 @@ export default function CurbNavbar() {
       <NavbarContent justify="end">
         <Button
           as={Link}
-          href="tel:12538205600"
-          variant="flat"
+          href="sms:12538205600"
+          variant="solid"
           className="w-30 text-xs text-wrap text-center font-bold flex-col gap-0"
         >
           <div>CALL OR TEXT</div>
