@@ -65,7 +65,7 @@ export default function CurbNavbar() {
         {menuItems.map((mi) => {
           return (
             <NavbarItem key={mi.name} isActive={pathname === mi.href}>
-              <Link color="foreground" href={mi.href}>
+              <Link color="foreground" href={mi.href} className="text-xl">
                 {mi.name}
               </Link>
             </NavbarItem>
@@ -87,7 +87,7 @@ export default function CurbNavbar() {
         {menuItems.map((mi) => {
           return (
             <NavbarMenuItem key={mi.name}>
-              <Link color="foreground" href={mi.href}>
+              <Link color="foreground" href={mi.href} className="text-2xl">
                 {mi.name}
               </Link>
             </NavbarMenuItem>

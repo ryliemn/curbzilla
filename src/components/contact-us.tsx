@@ -10,6 +10,12 @@ export default function ContactUs() {
 
   return (
     <div className="w-full items-center bg-slate-800 text-slate-50 py-6 flex flex-col">
+      <h1 className="text-2xl md:text-6xl my-4 text-center mx-4 underline uppercase">
+        <Link href="sms:12538205600" className="hover:text-blue-500">
+          <div className="">253•820•5600</div>
+          <div>Text or Call Direct to Owner</div>
+        </Link>
+      </h1>
       <div className="flex mb-4 space-x-12">
         <Link
           href="https://www.facebook.com/profile.php?id=100030412437273"
@@ -25,17 +31,19 @@ export default function ContactUs() {
           />
         </Link>
         <Link
-          href="https://maps.app.goo.gl/QaabSjcXW15AET9WA"
+          href="https://g.co/kgs/cLCjgr"
           target="_blank"
           rel="noopener noreferrer"
+          className="flex flex-col items-center"
         >
           <Image
-            src="/images/maps.png"
+            src="/images/google.png"
             width="60"
             height="60"
             alt="Google maps logo; links out to curbzilla google maps page"
             unoptimized
-          />
+          />{" "}
+          <div className="text-xl uppercase text-center font-bold">Reviews</div>
         </Link>
       </div>
       {state.succeeded ? (

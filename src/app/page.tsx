@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
 import ImgWithText from "@/components/img-with-text";
@@ -24,6 +25,11 @@ export default function Home() {
         showLogo={true}
       />
       <div className="flex flex-col my-8 items-center space-y-4">
+        <h1 className="text-2xl md:text-6xl my-2 text-center mx-4 underline">
+          <Link href="sms:12538205600">
+            253•820•5600 - Text or Call Direct to Owner
+          </Link>
+        </h1>
         <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
           CONCRETE LANDSCAPE CURBING
         </h1>
