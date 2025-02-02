@@ -65,142 +65,6 @@ export const OVERHEAD = {
   alt: "Overhead shot of a curb job from google maps",
 };
 
-export const GENERIC_GALLERY = [
-  {
-    src: "b9f7988e-77fc-4142-f79a-4465daa61f00",
-    name: "gallery1",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "79c52236-5823-473c-38c5-002d0ded3f00",
-    name: "gallery2",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "2b9d3c23-e652-4202-53c9-b96ba6334a00",
-    name: "gallery3",
-    width: 900,
-    height: 1600,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "82836cac-1b7f-4ad8-ec37-eb570a349e00",
-    name: "gallery4",
-    width: 900,
-    height: 1600,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "2d6f4b64-c925-413b-9086-be817e052800",
-    name: "gallery5",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "c4846f10-4177-49d5-6b1e-bfaace345700",
-    name: "gallery6",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "9582557a-044e-432a-74fe-99b872630300",
-    name: "gallery7",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "b33a43ca-265c-4d54-f53d-422ee9843c00",
-    name: "gallery8",
-    width: 1600,
-    height: 900,
-    alt: "Picture of curbing",
-  },
-  {
-    src: "353acd69-7667-498e-3894-c52b8fab5400",
-    name: "wetvsdry",
-    width: 900,
-    height: 1600,
-    alt: "Demonstrates the difference between wet and dry curbing",
-  },
-  {
-    src: "1851d1c0-4076-4540-a811-13a31865ed00",
-    name: "flowerpattern1",
-    width: 1600,
-    height: 900,
-    alt: "Curbing in a sort of flower pattern",
-  },
-  {
-    src: "061750dd-36ae-4bf2-6dbb-beed04d81c00",
-    name: "flowerpattern2",
-    width: 1600,
-    height: 900,
-    alt: "More curbing in a sort of flower pattern",
-  },
-  {
-    src: "b23cb45a-fb0b-4c30-6ea2-23ca222d1600",
-    name: "stonepath",
-    width: 900,
-    height: 1600,
-    alt: "Curbing surrounded a gravel path",
-  },
-  {
-    src: "88710aae-3b89-4824-baa6-5aff9eb70f00", //12
-    name: "blackcobble",
-    width: 900,
-    height: 1600,
-    alt: "Curbing with a black cobblestone pattern",
-  },
-  {
-    src: "1ab92600-38e6-4eb9-7b80-82d8ce0c4100",
-    name: "redbrickandflowers",
-    width: 900,
-    height: 900,
-    alt: "Red brick curbing in front of some flowers",
-  },
-  {
-    src: "4f4c9b9a-fc51-454f-6e0b-20e4b9498d00", //14
-    name: "wagonwheel",
-    width: 900,
-    height: 900,
-    alt: "Curbing in front of a house and some wheels",
-  },
-  {
-    src: "44a7a372-378f-45dd-12b8-987c7764e500",
-    name: "spookytree",
-    width: 900,
-    height: 900,
-    alt: "Curbing in a yard with a spooky tree",
-  },
-  {
-    src: "4afb6d5c-b79f-467d-6a13-b8a30ab84200",
-    name: "angle",
-    width: 900,
-    height: 1600,
-    alt: "Curbing with a very sharp, technical angle",
-  },
-  {
-    src: "4636ad37-4854-4f9d-ee28-9aae729caa00",
-    name: "trampoline",
-    width: 900,
-    height: 900,
-    alt: "Curbing in front of a trampoline",
-  },
-  {
-    src: "f7cb7e95-3b21-4f5c-943e-2d7125e24700",
-    name: "overhead",
-    alt: "Overhead shot of a curb job from google maps",
-    width: 900,
-    height: 600,
-  },
-];
-
 export const HOMEPAGE_2 = {
   src: "72e6458f-3fe3-4e8e-3651-35deb1cc2b00",
   name: "homepage2",
@@ -232,3 +96,249 @@ export const HOMEPAGE_6 = {
   height: 1000,
   width: 1000,
 };
+
+const gallery1 = {
+  src: "b9f7988e-77fc-4142-f79a-4465daa61f00",
+  name: "gallery1",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const gallery2 = {
+  src: "79c52236-5823-473c-38c5-002d0ded3f00",
+  name: "gallery2",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const gallery3 = {
+  src: "2b9d3c23-e652-4202-53c9-b96ba6334a00",
+  name: "gallery3",
+  width: 900,
+  height: 1600,
+  alt: "Picture of curbing",
+};
+
+const gallery4 = {
+  src: "82836cac-1b7f-4ad8-ec37-eb570a349e00",
+  name: "gallery4",
+  width: 900,
+  height: 1600,
+  alt: "Picture of curbing",
+};
+
+const gallery5 = {
+  src: "2d6f4b64-c925-413b-9086-be817e052800",
+  name: "gallery5",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const gallery6 = {
+  src: "c4846f10-4177-49d5-6b1e-bfaace345700",
+  name: "gallery6",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const gallery7 = {
+  src: "9582557a-044e-432a-74fe-99b872630300",
+  name: "gallery7",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const gallery8 = {
+  src: "b33a43ca-265c-4d54-f53d-422ee9843c00",
+  name: "gallery8",
+  width: 1600,
+  height: 900,
+  alt: "Picture of curbing",
+};
+
+const wetvsdry = {
+  src: "353acd69-7667-498e-3894-c52b8fab5400",
+  name: "wetvsdry",
+  width: 900,
+  height: 1600,
+  alt: "Demonstrates the difference between wet and dry curbing",
+};
+
+const flowerpattern1 = {
+  src: "1851d1c0-4076-4540-a811-13a31865ed00",
+  name: "flowerpattern1",
+  width: 1600,
+  height: 900,
+  alt: "Curbing in a sort of flower pattern",
+};
+
+const flowerpattern2 = {
+  src: "061750dd-36ae-4bf2-6dbb-beed04d81c00",
+  name: "flowerpattern2",
+  width: 1600,
+  height: 900,
+  alt: "More curbing in a sort of flower pattern",
+};
+
+const stonepath = {
+  src: "b23cb45a-fb0b-4c30-6ea2-23ca222d1600",
+  name: "stonepath",
+  width: 900,
+  height: 1600,
+  alt: "Curbing surrounded a gravel path",
+};
+
+const blackcobble = {
+  src: "88710aae-3b89-4824-baa6-5aff9eb70f00",
+  name: "blackcobble",
+  width: 900,
+  height: 1600,
+  alt: "Curbing with a black cobblestone pattern",
+};
+
+const redbrickandflowers = {
+  src: "1ab92600-38e6-4eb9-7b80-82d8ce0c4100",
+  name: "redbrickandflowers",
+  width: 900,
+  height: 900,
+  alt: "Red brick curbing in front of some flowers",
+};
+
+const wagonwheel = {
+  src: "4f4c9b9a-fc51-454f-6e0b-20e4b9498d00",
+  name: "wagonwheel",
+  width: 900,
+  height: 900,
+  alt: "Curbing in front of a house and some wheels",
+};
+
+const spookytree = {
+  src: "44a7a372-378f-45dd-12b8-987c7764e500",
+  name: "spookytree",
+  width: 900,
+  height: 900,
+  alt: "Curbing in a yard with a spooky tree",
+};
+
+const angle = {
+  src: "4afb6d5c-b79f-467d-6a13-b8a30ab84200",
+  name: "angle",
+  width: 900,
+  height: 1600,
+  alt: "Curbing with a very sharp, technical angle",
+};
+
+const trampoline = {
+  src: "4636ad37-4854-4f9d-ee28-9aae729caa00",
+  name: "trampoline",
+  width: 900,
+  height: 900,
+  alt: "Curbing in front of a trampoline",
+};
+
+const overhead = {
+  src: "f7cb7e95-3b21-4f5c-943e-2d7125e24700",
+  name: "overhead",
+  alt: "Overhead shot of a curb job from google maps",
+  width: 900,
+  height: 600,
+};
+
+const comparison1 = {
+  src: "d8a5218e-5c4c-4f3c-5919-0670f5d1a600",
+  name: "comparison1",
+  width: 1500,
+  height: 1600,
+  alt: "A comparison of Curbzilla curbing vs a competitors curbing",
+};
+
+const river1 = {
+  src: "489ef915-fab8-4016-beb8-942f9b03ad00",
+  name: "river1",
+  width: 1200,
+  height: 900,
+  alt: "Curbing against a body of water",
+};
+
+const firepit1 = {
+  src: "120fe7c2-b8db-4d69-cb21-88f482acc100",
+  name: "firepit1",
+  width: 1400,
+  height: 900,
+  alt: "Curbing framing an area with a firepit",
+};
+
+const firepit2 = {
+  src: "7e1d3232-3d52-4607-0be6-9b58fe5b5000",
+  name: "firepit2",
+  width: 1200,
+  height: 900,
+  alt: "Curbing framing an area with a firepit",
+};
+
+const nicehouse1 = {
+  src: "7ed36960-b647-4287-689c-6b85f4955700",
+  name: "nicehouse1",
+  width: 1200,
+  height: 900,
+  alt: "Curbing framing a grass walkway up to a nice house",
+};
+
+const longcobble1 = {
+  src: "fbfa57ea-3a4e-4f72-bf0d-298e115df000",
+  name: "longcobble1",
+  width: 800,
+  height: 1200,
+  alt: "A tall photo showing a length of cobblestone curbing",
+};
+
+const yellowgrass1 = {
+  src: "b1f2aa9c-8c4c-46b8-05e6-904b559a3200",
+  name: "yellowgrass1",
+  width: 1200,
+  height: 900,
+  alt: "A photo of curbing surrounding a lawn with yellow grass",
+};
+
+const drainage2 = {
+  src: "84319ba7-6959-4e20-14e8-65b5958c2d00",
+  name: "drainage2",
+  width: 1200,
+  height: 900,
+  alt: "A photo of curbing with some detail work around a drainage grate",
+};
+
+export const GENERIC_GALLERY = [
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  wetvsdry,
+  flowerpattern1,
+  flowerpattern2,
+  stonepath,
+  blackcobble,
+  redbrickandflowers,
+  wagonwheel,
+  spookytree,
+  angle,
+  trampoline,
+  overhead,
+  comparison1,
+  river1,
+  firepit1,
+  firepit2,
+  nicehouse1,
+  longcobble1,
+  yellowgrass1,
+  drainage2,
+];

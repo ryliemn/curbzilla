@@ -25,10 +25,9 @@ export default function Home() {
         showLogo={true}
       />
       <div className="flex flex-col my-8 items-center space-y-4">
-        <h1 className="text-2xl md:text-6xl my-2 text-center mx-4 underline">
-          <Link href="sms:12538205600">
-            253•820•5600 - Text or Call Direct to Owner
-          </Link>
+        <h1 className="text-2xl md:text-6xl my-2">
+          <Link href="sms:12538205600">253•820•5600</Link> - Text or Call Direct
+          to Owner
         </h1>
         <h1 className="text-2xl md:text-6xl font-bold text-zinc-900 text-center">
           CONCRETE LANDSCAPE CURBING
@@ -59,8 +58,7 @@ export default function Home() {
           imageUrl={HOMEPAGE_4.src}
           alt={HOMEPAGE_4.alt}
           header="Our Expertise"
-          body="With over 65 years of experience on every job site, not only have we learned how to curb, but more importantly, what not to do."
-          body2="I've done all the wrong, and I'm not doing that again!"
+          body="There's definitely a right way to install curbing, and sometimes there's an even smarter approach. Plus, it's crucial to recognize that Curbzilla is aware of what to avoid because we've tried everything. Our goal is to make sure you enjoy our curbing years down the road."
         />
         <ImgWithText
           imageUrl={HOMEPAGE_5.src}
