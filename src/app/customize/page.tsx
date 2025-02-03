@@ -42,7 +42,7 @@ export default function Customize() {
         <h1 className="text-3xl font-bold text-center px-6 uppercase my-4">
           Select from a wide variety of colors
         </h1>
-        <div className="text-center text-lg mx-24">
+        <div className="text-center text-lg mx-8 md:mx-24">
           Colors can be a bit unpredictable, so we can&apos;t promise an exact
           match. We like to say we&apos;re &quot;in the neighborhood&quot; of
           the color you want. Plus, keep in mind that colors can fade as time
@@ -67,7 +67,7 @@ export default function Customize() {
         <h1 className="text-3xl font-bold text-center px-6 uppercase my-4">
           Stamped patterns and styles to give your yard a unique touch
         </h1>
-        <div className="text-center text-lg mx-24 my-4">
+        <div className="text-center text-lg mx-8 md:mx-24 my-4">
           Stamping is a great way to make your curbs stand out, and usually
           involves color too. It works best when you&apos;re trying to mimic a
           pattern from the house; otherwise, it can end up being a bit

@@ -25,7 +25,7 @@ export default function Home() {
         showLogo={true}
       />
       <div className="flex flex-col my-8 items-center space-y-4">
-        <h1 className="text-2xl md:text-6xl my-2">
+        <h1 className="text-2xl md:text-6xl my-2 text-center mx-4">
           <Link href="sms:12538205600">253•820•5600</Link> - Text or Call Direct
           to Owner
         </h1>
