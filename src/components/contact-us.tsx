@@ -18,19 +18,6 @@ export default function ContactUs() {
       </h1>
       <div className="flex mb-4 space-x-12">
         <Link
-          href="https://www.facebook.com/profile.php?id=100030412437273"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/images/Facebook_Logo_Primary.png"
-            width="60"
-            height="60"
-            alt="Facebook logo; links out to curbzilla facebook page"
-            unoptimized
-          />
-        </Link>
-        <Link
           href="https://g.co/kgs/cLCjgr"
           target="_blank"
           rel="noopener noreferrer"
